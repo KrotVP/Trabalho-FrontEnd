@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+.titulo-formulario {
+    margin: 0;
+    margin-bottom: 1px solid #ccc;
+
+    font-size: 2em;
+    color: blue;
+}
