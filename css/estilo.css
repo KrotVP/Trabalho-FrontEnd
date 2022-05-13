@@ -7,18 +7,103 @@ body {
     font-family: Arial;
 }
 
-.container {
-    width: 100%;
+header {}
+
+header .logo {
+    width: 120px;
+    height: 70px;
+    margin-bottom: 12px;
+    margin-left: 100px;
+    margin-top: 15px;
+
+}
+
+header .navbar {
+    background-color: #fff;
+}
+
+.container-cabecalho {
+    /*padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;*/
+    display: flex;
+    justify-content: space-between;
+    border-top: 10px solid #f46725;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px rgba(43, 42, 42, 0.2);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+
+}
+
+main .container {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
 }
 
+.container-rodape {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+
+
+}
+
+.bi-facebook {
+    width: 30px;
+    height: 30px;
+
+}
+
+.bi-facebook:hover {
+    box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.bi-instagram {
+    width: 30px;
+    height: 30px;
+
+}
+
+.bi-instagram:hover {
+    box-shadow: 0px 0px 1px 1px rgb(24, 24, 24);
+    border-radius: 28%;
+}
+
+.bi-spotify {
+    width: 30px;
+    height: 30px;
+
+}
+
+.bi-spotify:hover {
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.redes-sociais {
+    justify-content: center;
+}
+
+footer .row {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+
 .cabecalho {
-    height: 90px;
+    /*  height: 90px;
     line-height: 80px;
     padding-top: 5px;
-    padding-bottom: 5px;
     border-top: 10px solid #f46725;
 
     position: fixed;
@@ -28,9 +113,24 @@ body {
     z-index: 9999;
 
     background-color: #ffffff;
-    box-shadow: 0px 5px 10px 0px rgba(43, 42, 42, 0.2);
+    box-shadow: 0px 5px 10px 0px rgba(43, 42, 42, 0.2);*/
 }
 
+.layout-contratacao {
+    padding:  50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: #e7e7e7;
+}
+
+.titulo-formulario {
+    margin: 0;
+    margin-bottom: 1px solid #ccc;
+
+    font-size: 2em;
+    color: #f46725;
+    padding-top: 100px;
+}
 
 .imagem {
     background-image: url(https://www.tudobahia.com.br/wp-content/uploads/2020/10/praias-na-bahia-scaled.jpg);
@@ -40,10 +140,11 @@ body {
     background-position: center;
 }
 
-.frase{
+.frase {
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
+    font-family: Impact;
     /*text-shadow: 2px 2px 4px  rgba(255, 255, 255, 0.2);*/
 }
 
@@ -51,12 +152,13 @@ body {
     background-color: #eeeeee;
     padding: 20px;
     border-bottom: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;;
+    border-right: 2px solid #ffffff;
+    ;
     margin: 30px;
     box-shadow: 10px 10px #f46725;
 }
 
-.principal__titulo{
+.principal__titulo {
     text-align: center;
     color: #84dc61;
     font-size: 2.5rem;
@@ -68,7 +170,7 @@ body {
     font-size: 1rem;
 }
 
-.layout-rodape{
+.layout-rodape {
     padding: 30px 0;
     background-color: #484848;
 
