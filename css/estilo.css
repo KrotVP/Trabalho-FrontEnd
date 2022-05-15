@@ -10,8 +10,8 @@ body {
 header {}
 
 header .logo {
-    width: 120px;
-    height: 70px;
+    width: 10%;
+    height: 10%;
     margin-bottom: 12px;
     margin-left: 100px;
     margin-top: 15px;
@@ -140,11 +140,79 @@ footer .row {
     background-position: center;
 }
 
+.imagem2{
+    background-image:url(https://a.cdn-hotels.com/gdcs/production13/d1716/4d8cd010-4240-40cd-a335-50fc453b15bb.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 250px 0;
+    background-position: center;
+}
+
+.carousel-inner{
+    padding-top: 30px;
+}
+
+.carousel-item > p{
+    color: black;
+}
+
+.carousel-indicators{
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+
+}
+.carouse-control-prev-icon:hover{
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+.carouse-control-next-icon:hover{
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+h2{
+
+    font-weight: bold;
+    color: #484848;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 8rem;
+
+    display: block;
+    margin-top: 10px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h2 > strong{
+    color: black;
+}
+
+h3{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #484848;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 8rem;
+}
+.separador{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-title p {
+    font-size: 17px;
+    font-style: italic;
+    text-transform: none;
+    font-family: 'Noto Sans',Arial,sans-serif;
+    text-align: center;
+}
 .frase {
     color: #ffffff;
     font-size: 3rem;
-    text-align: center;
+    text-align:left;
     font-family: Impact;
+    text-align: center;
     /*text-shadow: 2px 2px 4px  rgba(255, 255, 255, 0.2);*/
 }
 
