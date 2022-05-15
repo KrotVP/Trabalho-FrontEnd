@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/estilo.css">
@@ -14,7 +15,9 @@
 </head>
 
 <body>
-    <header class="cabecalho">
+    
+    <header class="sticky-top">
+        
         <div class="container-cabecalho">
             <img class="logo" src="img/logo-menor.jpg" alt="logo">
             <nav class="navbar navbar-expand-lg navbar-light ">
@@ -41,190 +44,201 @@
             </nav>
         </div>
     </header>
-    <div class="imagem2">
+    <main>
+
+        <section>
+            <div class="imagem2">
+
+        <h1 class="titulo-main">Bem vindo(a) a página da Império Tour!</h1>
+    </div>
+        </div>
+
         <div class="container">
-            <h1 class="frase">Bem vindo(a) a página da Império Tour!</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12  section-title">
-                <h3>
-                    <strong style="color: black;">PACOTES</strong> ATUAIS
-                </h3>
-                <p>Pacote para todo tipo de necessidade e de cliente!</p>
+            <div class="row">
+                <div class="col-lg-12  section-title">
+                    <h2>
+                        <strong style="color: black;">PACOTES</strong> ATUAIS
+                    </h2>
+                    <p>Pacote para todo tipo de necessidade e de cliente!</p>
+                </div>
             </div>
         </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 section-title">
-                <h3>
-                    <strong style="margin-top: 1.7 rem;">PACOTE GASTRÔNOMICO</strong>
+        
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 section-title">
+                    <h3>
+                        PACOTE GASTRÔNOMICO
+                    </h3>
                     <p>Conheça algumas das cidades, e principalmente pratos típicos da Bahia</p>
-                </h3>
+                </div>
             </div>
-        </div>
-    </div>
-    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/acaraje.jpg" class="d-block w-100" alt="Acarajé">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Acarajé</h5>
-                    <p style="color: #f46725;">O acarajé é o carro chefe quando pensamos em culinária bahiana.</p>
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/vatapa.jpg" class="d-block w-100" alt="Vatapa">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Vatapá</h5>
-                    <p style="color: #f46725 ;"> O vatapá chegou ao Brasil por intermédio dos africanos iorubas com o nome de ehbatapa.</p>
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/acaraje.jpg" class="d-block w-100" alt="Acarajé">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Acarajé</h4>
+                            <p>O acarajé é o carro chefe quando pensamos em culinária bahiana.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/vatapa.jpg" class="d-block w-100" alt="Vatapa">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Vatapá</h4>
+                            <p> O vatapá chegou ao Brasil por intermédio dos africanos iorubas
+                                com
+                                o nome de ehbatapa.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/quindim.png" class="d-block w-100" alt="Quindim">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Quindim</h4>
+                            <p>O nome Quindim é de origem africana que significa dengo, encanto.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/quindim.png" class="d-block w-100" alt="Quindim">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 >Quindim</h5>
-                    <p style="color: #f46725;">O nome Quindim é de origem africana que significa dengo, encanto.</p>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div class="separador"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 section-title">
-                <h3>
-                    <strong style="margin-top: 1.7 rem;">PACOTE HISTÓRICO</strong>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 section-title">
+                    <h3>
+                        PACOTE HISTÓRICO
+                    </h3>
                     <p>Conheça um pouco mais da história desse estado importante e tão alegre</p>
-                </h3>
+                </div>
             </div>
-        </div>
-    </div>
-    <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
+        
+        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/pelourinho.jfif" class="d-block w-100" alt="Pelourinho">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Pelourinho</h5>
-                    <p style="color: #f46725;">O pelourinho revivido e colorido, repleto de atividades culturais e eventos principalmente a noite.</p>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/pelourinho.jfif" class="d-block w-100" alt="Pelourinho">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Pelourinho</h4>
+                        <p>O pelourinho revivido e colorido, repleto de atividades culturais e
+                            eventos principalmente a noite.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ilheus.jpg" class="d-block w-100" alt="ilheus">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>ilheus</h4>
+                        <p>Ilhéus é considerada a capital do cacau e denominada por seus
+                            habitantes como a "Princesinha do Sul".</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/caravelas.jpg" class="d-block w-100" alt="caravelas">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Caravelas</h4>
+                        <p>Charmosa e tranquila, essa pequena cidade possui diversas referências
+                            culturais por todos os lados, principalmente em sua arquitetura.</p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/ilheus.jpg" class="d-block w-100" alt="ilheus">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>ilheus</h5>
-                    <p style="color: #f46725 ;">Ilhéus é considerada a capital do cacau e denominada por seus habitantes como a "Princesinha do Sul".</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/caravelas.jpg" class="d-block w-100" alt="caravelas">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Caravelas</h5>
-                    <p style="color: #f46725;">Charmosa e tranquila, essa pequena cidade possui diversas referências culturais por todos os lados, principalmente em sua arquitetura.</p>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 section-title">
+                    <h3>
+                        PACOTE LITORÂNEO
+                    </h3>
+                    <p>A Bahia é conhecida por várias praias lindas e paradisíacas, esse pacote é para os apaixonados
+                        por praia.</p>
+                </div>
+            </div>
+        
+        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
 
-    <div class="separador"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 section-title">
-                <h3>
-                    <strong style="margin-top: 1.7 rem;">PACOTE LITORÂNEO</strong>
-                    <p>A Bahia é conhecida por várias praias lindas e paradisíacas, esse pacote é para os apaixonados por praia.</p>
-                </h3>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/praia-do-espelho-bahia.jpg" class="d-block w-100" alt="Praia-do-espelho">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Praia do Espelho</h4>
+                        <p>A praia do espelho é uma das mais lindas praias de todo o Brasil,
+                            durante a maré baixa os corais ficam visíveis, mostrando um lindo padrão da natureza.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/praia-de-jeribuacu.jpg" class="d-block w-100" alt="Jeribuaçu">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Jeribuaçu</h4>
+                        <p>Praia combinada com paisagem verde e um rio de águas claras, com uma
+                            trilha incrível de 3km, essa é especial para os amantes da natureza.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/praia-do-forte-bahia.jpg" class="d-block w-100" alt="Praia-do-Forte">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Praia do forte</h4>
+                        <p>Pensando em praias bahianas não se pode esquecer da Praia do forte.
+                            Localizada na capital salvador, é uma ótima pedida para quem tem interesse em conhecer mais
+                            sobre a capital, e ainda aproveitar uma praia incrível.</p>
+                    </div>
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
-    <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/praia-do-espelho-bahia.jpg" class="d-block w-100" alt="Praia-do-espelho">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Praia do Espelho</h5>
-                    <p style="color: #f46725;">A praia do espelho é uma das mais lindas praias de todo o Brasil, durante a maré baixa os corais ficam visíveis, mostrando um lindo padrão da natureza.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/praia-de-jeribuacu.jpg" class="d-block w-100" alt="Jeribuaçu">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Jeribuaçu</h5>
-                    <p style="color: #f46725 ;">Praia combinada com paisagem verde e um rio de águas claras, com uma trilha incrível de 3km, essa é especial para os amantes da natureza.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/praia-do-forte-bahia.jpg" class="d-block w-100" alt="Praia-do-Forte">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Praia do forte</h5>
-                    <p style="color: #f46725;">Pensando em praias bahianas não se pode esquecer da Praia do forte. Localizada na capital salvador, é uma ótima pedida para quem tem interesse em conhecer mais sobre a capital, e ainda aproveitar uma praia incrível.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </section>
 
 
     <footer class="layout-rodape">
@@ -264,13 +278,22 @@
 
 
         </div>
-
+    </main>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 
 </body>
 

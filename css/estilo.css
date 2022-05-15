@@ -5,9 +5,10 @@
 body {
     margin: 0;
     font-family: Arial;
+   
 }
 
-header {}
+header,.navbar {}
 
 header .logo {
     width: 10%;
@@ -18,8 +19,9 @@ header .logo {
 
 }
 
-header .navbar {
-    background-color: #fff;
+header, nav {
+    background: rgb(230,115,27);
+    background: linear-gradient(90deg, rgba(230,115,27,1) 0%, rgba(242,147,21,1) 46%, rgba(248,160,18,1) 70%, rgba(255,164,15,1) 100%);
 }
 
 .container-cabecalho {
@@ -32,13 +34,19 @@ header .navbar {
     background-color: #ffffff;
     box-shadow: 0px 5px 10px 0px rgba(43, 42, 42, 0.2);
 
-    position: fixed;
+    /*position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 9999;
+    z-index: 9999;*/
 
 
+}
+section .titulo-main{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 main .container {
@@ -146,10 +154,13 @@ footer .row {
     background-size: auto;
     padding: 250px 0;
     background-position: center;
+    
+    
 }
 
 .carousel-inner{
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .carousel-item > p{
@@ -169,6 +180,12 @@ footer .row {
     background-color: rgb(0, 0, 0);
     color: black;
 }
+
+.carousel-inner,.carousel-item p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
 h2{
 
     font-weight: bold;
@@ -194,14 +211,17 @@ h3{
     color: #484848;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    font-size: 8rem;
+    font-size: 5rem;
 }
-.separador{
+section h3{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+}
+section p{
+    
 }
 .section-title p {
-    font-size: 17px;
+    font-size: 20px;
     font-style: italic;
     text-transform: none;
     font-family: 'Noto Sans',Arial,sans-serif;
@@ -243,4 +263,15 @@ h3{
     background-color: #484848;
 
     color: #fff;
+}
+
+h2{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #484848;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 7rem;  
+    display: block;
+    
 }
