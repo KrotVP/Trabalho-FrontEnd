@@ -7,8 +7,15 @@ body {
     font-family: Arial;
    
 }
+/* Header*/
+header .container-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    border-top: 10px solid #f46725;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px rgba(43, 42, 42, 0.2);
 
-header,.navbar {}
+}
 
 header .logo {
     width: 8%;
@@ -23,32 +30,29 @@ header, nav {
     background: rgb(230,115,27);
     background: linear-gradient(90deg, rgba(230,115,27,1) 0%, rgba(242,147,21,1) 46%, rgba(248,160,18,1) 70%, rgba(255,164,15,1) 100%);
 }
-
-.container-cabecalho {
-    /*padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;*/
-    display: flex;
-    justify-content: space-between;
-    border-top: 10px solid #f46725;
-    background-color: #ffffff;
-    box-shadow: 0px 5px 10px 0px rgba(43, 42, 42, 0.2);
-
-    /*position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;*/
-
-
+/* Navbar */
+.nav-link{
+    font-weight: bold;
+    font-size: 13px;
 }
+
+/* Section 1 Home*/
+
+.imagem2{
+    padding: 250px 0;
+    background-image:url(https://a.cdn-hotels.com/gdcs/production13/d1716/4d8cd010-4240-40cd-a335-50fc453b15bb.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center; 
+}
+
 section .titulo-main{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
     font-family: sans-serif;
     font-size: 4rem;
     color: #e7e1e1;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
 }
 
 main .container {
@@ -57,108 +61,28 @@ main .container {
     margin: 0 auto;
 }
 
-.container-rodape {
-    display: flex;
+.section-title p {
     text-align: center;
-    justify-content: space-around;
-
-
-
+    text-transform: none;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Noto Sans',Arial,sans-serif;
+}
+/*Section 2 Home*/
+h3{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    color: #484848;
 }
 
-.bi-facebook {
-    width: 30px;
-    height: 30px;
-
+section h3{
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
 
-.bi-facebook:hover {
-    box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
-    border-radius: 50%;
-}
-
-.bi-instagram {
-    width: 30px;
-    height: 30px;
-
-}
-
-.bi-instagram:hover {
-    box-shadow: 0px 0px 1px 1px rgb(24, 24, 24);
-    border-radius: 28%;
-}
-
-.bi-spotify {
-    width: 30px;
-    height: 30px;
-
-}
-
-.bi-spotify:hover {
-    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
-    border-radius: 50%;
-}
-
-.redes-sociais {
-    justify-content: center;
-}
-
-footer .row {
-    display: flex;
-
-    justify-content: space-around;
-}
-
-
-.cabecalho {
-    /*  height: 90px;
-    line-height: 80px;
-    padding-top: 5px;
-    border-top: 10px solid #f46725;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-
-    background-color: #ffffff;
-    box-shadow: 0px 5px 10px 0px rgba(43, 42, 42, 0.2);*/
-}
-
-.layout-contratacao {
-    padding:  50px;
-    padding-right: 150px;
-    padding-left: 150px;
-    background-color: #e7e7e7;
-}
-
-.titulo-formulario {
-    margin: 0;
-    margin-bottom: 1px solid #ccc;
-
-    font-size: 2em;
-    color: #f46725;
-    padding-top: 100px;
-}
-
-.imagem {
-    background-image: url(https://www.tudobahia.com.br/wp-content/uploads/2020/10/praias-na-bahia-scaled.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 250px 0;
-    background-position: center;
-}
-
-.imagem2{
-    background-image:url(https://a.cdn-hotels.com/gdcs/production13/d1716/4d8cd010-4240-40cd-a335-50fc453b15bb.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    padding: 250px 0;
-    background-position: center;
-    
-    
-}
 
 .carousel-inner{
     padding-top: 30px;
@@ -170,118 +94,151 @@ footer .row {
 }
 
 .carousel-indicators{
-    background-color: rgb(0, 0, 0);
     display: inline-flex;
+    background-color: rgb(0, 0, 0);
 
 }
-.carouse-control-prev-icon:hover{
+.carousel-control-prev-icon:hover{
     background-color: rgb(0, 0, 0);
     color: black;
 }
-.carouse-control-next-icon:hover{
+.carousel-control-next-icon:hover{
     background-color: rgb(0, 0, 0);
     color: black;
 }
 
 .carousel-inner,.carousel-item p{
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 0.5px black;
     font-weight: bold;
     font-size: 16px;
+    -webkit-text-stroke: 0.5px black;
+    color: rgb(255, 255, 255);
+}
+/* Footer*/
+.layout-rodape {
+    padding: 30px 0;
+    background-color: #484848;
+    color: #fff;
 }
 
-.nav-link{
-    font-weight: bold;
-    font-size: 13px;
-}
-
-h2{
-
-    font-weight: bold;
-    color: #484848;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.container-rodape {
+    display: flex;
     text-align: center;
-    font-size: 8rem;
-
-    display: block;
-    margin-top: 10px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-h2 > strong{
-    color: black;
+    justify-content: space-around;
 }
 
-h3{
-    margin-top: 30px;
-    font-weight: bold;
-    color: #484848;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+footer .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bi-facebook {
+    width: 30px;
+    height: 30px;
+
+}
+
+.bi-facebook:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
+}
+
+.bi-instagram {
+    width: 30px;
+    height: 30px;
+
+}
+
+.bi-instagram:hover {
+    border-radius: 28%;
+    box-shadow: 0px 0px 1px 1px rgb(24, 24, 24);
+}
+
+.bi-spotify {
+    width: 30px;
+    height: 30px;
+
+}
+
+.bi-spotify:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.redes-sociais {
+    justify-content: center;
+}
+
+/*Página quem-somos*/
+
+main .imagem {
+    padding: 250px 0;
+    background-image: url(https://www.tudobahia.com.br/wp-content/uploads/2020/10/praias-na-bahia-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main .container .frase {
     text-align: center;
-    font-size: 5rem;
-}
-section h3{
-    margin-top: 30px;
-    margin-bottom: 5px;
-}
-section p{
-    
-}
-.section-title p {
-    font-size: 20px;
-    font-style: italic;
-    text-transform: none;
-    font-family: 'Noto Sans',Arial,sans-serif;
-    text-align: center;
-}
-.frase {
-    color: #ffffff;
     font-size: 3rem;
-    text-align:left;
     font-family: Impact;
-    text-align: center;
-    /*text-shadow: 2px 2px 4px  rgba(255, 255, 255, 0.2);*/
+    color: #ffffff;
 }
 
 .principal {
-    background-color: #eeeeee;
     padding: 20px;
+    margin: 30px;
     border-bottom: 2px solid #ffffff;
     border-right: 2px solid #ffffff;
-    ;
-    margin: 30px;
+    background-color: #eeeeee;
     box-shadow: 10px 10px #f46725;
 }
 
 .principal__titulo {
     text-align: center;
-    color: #84dc61;
     font-size: 2.5rem;
+    color: #84dc61;
 }
 
 .principal__texto {
     text-align: center;
-    color: #585858;
-    font-size: 1rem;
     font-weight: bold;
+    font-size: 1rem;
+    color: #585858;
 }
 
-.layout-rodape {
-    padding: 30px 0;
-    background-color: #484848;
+/* Página fale-conosco*/
 
-    color: #fff;
+.layout-contratacao {
+    padding:  50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: #e7e7e7;
+}
+
+.titulo-formulario {
+    padding-top: 100px;
+    margin: 0;
+    margin-bottom: 1px solid #ccc;
+
+    font-size: 2em;
+    color: #f46725;
 }
 
 h2{
-    margin-top: 30px;
-    font-weight: bold;
-    color: #484848;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-size: 7rem;  
     display: block;
-    
+    margin-top: 30px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7rem; 
+    color: #484848;
 }
+
+
+
+
